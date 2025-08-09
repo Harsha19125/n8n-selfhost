@@ -1,0 +1,8 @@
+FROM n8nio/n8n
+
+ENV NODE_ENV=production
+
+# Railway lo n8n run cheyadaniki port set
+EXPOSE 5678
+
+CMD ["n8n", "start"]
